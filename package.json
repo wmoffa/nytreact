@@ -1,0 +1,26 @@
+{
+  "name": "nytreacthw",
+  "version": "1.0.0",
+  "description": "New York Times Article Viewer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moffa1953/nytreacthw.git"
+  },
+  "author": "Bill Moffa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moffa1953/nytreacthw/issues"
+  },
+  "homepage": "https://github.com/moffa1953/nytreacthw#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongojs": "^2.5.0",
+    "mongoose": "^5.0.12"
+  }
+}
